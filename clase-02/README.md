@@ -11,4 +11,10 @@
     git remote -v
 
 ### Para subir el repo local al remoto
-    git push -u origin main     ---> la primera vez
+    git push -u origin master     ---> la primera vez
+
+## GITIGNORE
+    Me permite descartar archivos y carpetas que no quiero subir
+
+## GITKEEP
+    Me permite mantener y versionar carpetas vacias
