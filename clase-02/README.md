@@ -47,3 +47,8 @@
     git log --before="2022-05-01"
     git log --since="2022-05-01" --oneline
 
+## GIT RAMAS (Branchs)
+> Crear una rama
+    git branch <nombre-rama>
+>Moverme entre ramas
+    git switch <nombre-rama>
