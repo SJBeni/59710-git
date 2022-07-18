@@ -64,3 +64,4 @@
 ### GIT LOG
     Muestra las fotos o los commits que tengo en el repositorio
         git log
+        git log --online
