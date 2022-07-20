@@ -21,4 +21,3 @@
 * Recursivo (Union Automatica) Tampoco hay conflictos
 * Manual (Conflictos) Ocurre cuando hay modificaciones en las mismas lineas de un archivo o varios archivos
 
-## Agrego otra cosa nueva en la rama (origen: master)
