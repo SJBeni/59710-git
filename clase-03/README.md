@@ -8,3 +8,6 @@
     git branch
 > Para borrar una rama
     git branch -d <nombre-rama>
+> Para forzar el borrado de una rama
+    Recuerden que este flag me sirve para confirmar el borrado de una rama que no fue fusionada con ningun otra
+        git branch -D <nombre-rama>
