@@ -15,9 +15,12 @@
 ## GIT MERGE
 
     git merge <nombre-rama>
+### Abortar la fusion (el merge)
+    git merge --abort
 
 ### Tipos de Fusiones/Merge
 * Fast-forward (Union Automatica) Git no necesita de la asistencia del usuario. Tampoco hay conflictos
 * Recursivo (Union Automatica) Tampoco hay conflictos
 * Manual (Conflictos) Ocurre cuando hay modificaciones en las mismas lineas de un archivo o varios archivos
 
+# Hola soy una nueva linea que pronto se convertira en un conflicto
