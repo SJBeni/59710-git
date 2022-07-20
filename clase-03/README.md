@@ -20,3 +20,5 @@
 * Fast-forward (Union Automatica) Git no necesita de la asistencia del usuario. Tampoco hay conflictos
 * Recursivo (Union Automatica) Tampoco hay conflictos
 * Manual (Conflictos) Ocurre cuando hay modificaciones en las mismas lineas de un archivo o varios archivos
+
+## Esto es algo nuevo que tengo que probar. (origen: rama-conflicto)
