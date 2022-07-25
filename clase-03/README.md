@@ -14,6 +14,9 @@
 > Para crear una rama y moverse a ella
     git switch -c <nombre-rama>
     
+> Para borrar una rama remota
+    git push origin --delete <nombre-rama-remota>
+
 ## GIT MERGE
 
     git merge <nombre-rama>
