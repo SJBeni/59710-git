@@ -11,7 +11,9 @@
 > Para forzar el borrado de una rama
     Recuerden que este flag me sirve para confirmar el borrado de una rama que no fue fusionada con ningun otra
         git branch -D <nombre-rama>
-
+> Para crear una rama y moverse a ella
+    git switch -c <nombre-rama>
+    
 ## GIT MERGE
 
     git merge <nombre-rama>
