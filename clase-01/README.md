@@ -29,6 +29,7 @@
 * clear : limpio la consola
 
 ## GIT
+## GIT INTRODUCCION
 
 > Saber si tengo GIT instalado
     git --version
@@ -43,7 +44,7 @@
     git init
 
 > Configuracion importante de GIT
-  LOCAL: Para el repositorio actual, configuro usuario y correo
+  LOCAL: Para el repositorio actual, configuro usuario y correo, para un mail diferente al configurado en el global
 
     git config --local user.name "nombre"
     git config --local user.email "correo"
