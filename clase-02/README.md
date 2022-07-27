@@ -63,5 +63,9 @@ OBS: para modificar el mensaje, se abre la consola, en este caso, gitbash
 ## GIT RAMAS (Branchs)
 > Crear una rama
     git branch <nombre-rama>
->Moverme entre ramas
+
+> Moverme entre ramas
     git switch <nombre-rama>
+
+> Para ver las ramas
+    git branch
