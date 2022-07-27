@@ -17,18 +17,3 @@
     Git realiza esa advertencia para evitar que se borre una rama que no fue mergeada, por error
         git branch -D <nombre-rama>
         
-> Para borrar una rama remota
-    git push origin --delete <nombre-rama-remota>
-
-## GIT MERGE (Fusiones)
-**IMPORTANTE:** Tengo que estar en la rama que espero traerme los cambios; si quiero traer los cambios de dev a master, debo estar sobre rama master
-    git merge <nombre-rama>
-### Abortar la fusion (el merge)
-    git merge --abort
-
-### Tipos de Fusiones/Merge
-* Fast-forward (Union Automatica) Git no necesita de la asistencia del usuario. Tampoco hay conflictos
-* Recursivo (Union Automatica) Tampoco hay conflictos
-* Manual (Conflictos) Ocurre cuando hay modificaciones en las mismas lineas de un archivo o varios archivos
-
-# Hola soy una nueva linea que pronto se convertira en un conflicto
