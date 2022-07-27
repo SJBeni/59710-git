@@ -43,20 +43,23 @@ OBS: para modificar el mensaje, se abre la consola, en este caso, gitbash
 
 ## Status de Archivos
 
-* Untracked: Archivos que no se estan siguiendo. No fueron afectados por git add
-* Modified: Son archivos que ya estan en el repositorio pero respecto al Working Directory
+* Untracked: Archivos que no se agregaron al index (Staging Area), es decir archivos que estan en el Working Directory
+* Unmodified: Son archivos que ya estan en el repositorio, es decir ya tienen una foto (commit)
+* Modified: Son archivos que ya estan en el repositorio, pero con respecto al Working Directory tienen modificaciones 
+            detectadas por git (compara la foto del repositorio con el WD)
+* Staged: Archivos que estan confirmados para ser un proximo commit
 
 ## GIT LOG
 >Mostrar la documentacion de un comando en particular
     git log --help
 >Muestre los commit en una cantidad especifica
-    git log - 2
+    git log -2
 > Muestre los commit por fecha y sus variantes
     git log --since="2022-05-01"
     git log --after="2022-05-01"
     git log --before="2022-05-01"
-    git log --since="2022-05-01" --oneline
-
+    git log --after="2022-05-01" --before="2022-05-10"
+    
 ## GIT RAMAS (Branchs)
 > Crear una rama
     git branch <nombre-rama>
