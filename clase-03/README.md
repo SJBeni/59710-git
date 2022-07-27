@@ -20,8 +20,8 @@
 > Para borrar una rama remota
     git push origin --delete <nombre-rama-remota>
 
-## GIT MERGE
-
+## GIT MERGE (Fusiones)
+**IMPORTANTE:** Tengo que estar en la rama que espero traerme los cambios; si quiero traer los cambios de dev a master, debo estar sobre rama master
     git merge <nombre-rama>
 ### Abortar la fusion (el merge)
     git merge --abort
