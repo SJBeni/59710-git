@@ -19,6 +19,9 @@
 
 ## GITKEEP
     Me permite mantener y versionar carpetas vacias
+    Esto fue creado por la comunidad, para resolver la necesidad de incluir carpetas vacias
+    pero necesarias para la funcionalidad de un programa.
+    No pertenece a la documentacion de git
 
 ## GIT COMMIT
 
