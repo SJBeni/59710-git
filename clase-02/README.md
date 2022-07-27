@@ -29,7 +29,7 @@
     git commit -m "Mensaje"
 
 ### Para hacer un git add y un git commit en simultaneo
-    Los archivos que quiero commitear deben estar en seguimiento. O sea, no ser Untracked (Archivos que no estan en seguimiento), ya que no los va a agregar el git add
+    Los archivos que quiero hacer commit deben estar en seguimiento. O sea, no ser Untracked (Archivos que no estan en seguimiento), ya que no los va a agregar el git add
     git commit -am "Mensaje"
 
 ### Para enmendar un commit
