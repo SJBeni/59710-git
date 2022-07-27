@@ -33,7 +33,13 @@
     git commit -am "Mensaje"
 
 ### Para enmendar un commit
+Agrego los archivos que faltaron en el ultimo commit utilizando: git add <archivo>
+Luego ejecuto:
     git commit --amend
+OBS: para modificar el mensaje, se abre la consola, en este caso, gitbash
+     para guardar los cambios y salir de esa ventana, ejecutar la combinacion
+            Esc + Shift + Z + Z
+     de esta forma, el amend termina, habiendose modificado el commit
 
 ## Status de Archivos
 
