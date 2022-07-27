@@ -4,11 +4,12 @@
 
 ### Agregar remoto
 
+    git remote add origin <URL>
     git remote add origin https://github.com/SJBeni/59710-git.git
 
 ### Verificar los remotos
     git remote
-    git remote -v
+    git remote -v   #verbose: va a dar mas informacion del remoto
 
 ### Para subir el repo local al remoto
     git push -u origin master     ---> la primera vez
