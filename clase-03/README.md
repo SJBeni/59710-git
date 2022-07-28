@@ -24,6 +24,9 @@ Combinar los cambios de una rama con otra. Normalmente en un nuevo commit
                 debo estar sobre la rama master y ejecutar el siguiente comando
     git merge <nombre-rama>
 
+### Abortar la fusion (merge)
+    git merge --abort
+
 ### Tipos de Fusiones/Merge 
 * Fast-forward (Union Automatica) GIT no necesita de la asistencia del usuario.
 * Recursivo (Union Automatica) Tampoco hay conflictos.
