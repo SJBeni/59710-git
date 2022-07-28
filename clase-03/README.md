@@ -31,3 +31,5 @@ Combinar los cambios de una rama con otra. Normalmente en un nuevo commit
 * Fast-forward (Union Automatica) GIT no necesita de la asistencia del usuario.
 * Recursivo (Union Automatica) Tampoco hay conflictos.
 * Manual (Conflictos) Ocurre cuando hay modificaciones en las mismas lineas de un archivo o varios archivos.
+
+# Hola soy una linea que pronto se convertira en un conflicto (rama master)
