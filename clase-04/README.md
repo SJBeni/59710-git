@@ -26,3 +26,19 @@
 
 ### Para quitar un alias
     git config --global --unset alias.<nombre-alias>
+
+## GIT STASH
+ Es construido basado en una estructura de datos conocida como pila.
+ ¿Que me permite hacer el stash?
+ Me permite registrar temporalmente los cambios del Working Directory y el Staging Area
+
+### Crear un stash
+    git stash
+
+### Listar los stash
+    git stash list
+
+### Recuperar los stash
+**Nota** Si el stash que estoy tratando de recuperar genera un conflicto con mi codigo, o sea con el codigo que esta en WD
+         Me va a dejar en la caja de stash el stash actual. Si no hay conflictos, borra el stash actual de la pila.
+         git stash pop
