@@ -14,6 +14,9 @@
 > Para borrar una rama
     git branch -d <nombre-rama>
 
+> Para crear una rama y moverse a ella
+    git switch -c <nombre-rama>
+
 > Para forzar el borrado de una rama
 Recordar que este flag me sirve para confirmar el borrado de una rama que no fue fusionada con ninguna otra.
     git branch -D <nombre-rama>
